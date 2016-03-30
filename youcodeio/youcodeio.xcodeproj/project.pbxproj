@@ -17,6 +17,7 @@
 		B01D9D2E1CABBA1900FFF2D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01D9D2C1CABBA1900FFF2D6 /* LaunchScreen.storyboard */; };
 		B01D9D391CABBA1900FFF2D6 /* youcodeioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D9D381CABBA1900FFF2D6 /* youcodeioTests.swift */; };
 		B01D9D441CABBA1900FFF2D6 /* youcodeioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D9D431CABBA1900FFF2D6 /* youcodeioUITests.swift */; };
+		B0E31B5F1CABC6290097A818 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E31B5E1CABC6290097A818 /* WebServices.swift */; };
 		DA953508719A1DAF18D31C22 /* Pods_youcodeio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05870DE3C52F175AC3602B15 /* Pods_youcodeio.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		B01D9D3F1CABBA1900FFF2D6 /* youcodeioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = youcodeioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B01D9D431CABBA1900FFF2D6 /* youcodeioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youcodeioUITests.swift; sourceTree = "<group>"; };
 		B01D9D451CABBA1900FFF2D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0E31B5E1CABC6290097A818 /* WebServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
 		BB0DF95E40A227634FEF1651 /* Pods-youcodeioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-youcodeioTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-youcodeioTests/Pods-youcodeioTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BE132ABF2C6883CF903EFEA5 /* Pods-youcodeio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-youcodeio.release.xcconfig"; path = "Pods/Target Support Files/Pods-youcodeio/Pods-youcodeio.release.xcconfig"; sourceTree = "<group>"; };
 		C2315827C2B73CA5EB67180D /* Pods_youcodeioUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_youcodeioUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -166,6 +168,7 @@
 		B0E31B5A1CABC1090097A818 /* WebService */ = {
 			isa = PBXGroup;
 			children = (
+				B0E31B5E1CABC6290097A818 /* WebServices.swift */,
 			);
 			name = WebService;
 			sourceTree = "<group>";
@@ -472,6 +475,7 @@
 			files = (
 				B01D9D261CABBA1900FFF2D6 /* SecondViewController.swift in Sources */,
 				B01D9D221CABBA1900FFF2D6 /* AppDelegate.swift in Sources */,
+				B0E31B5F1CABC6290097A818 /* WebServices.swift in Sources */,
 				B01D9D241CABBA1900FFF2D6 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
