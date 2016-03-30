@@ -1,0 +1,6 @@
+framework module Pods_youcodeioTests {
+  umbrella header "Pods-youcodeioTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
